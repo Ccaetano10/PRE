@@ -5,6 +5,14 @@
     /* Pensar em uma fonte para colocar */
 }
 
-.header{
-    
+header{
+    display: inline;
+}
+ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+
 }
