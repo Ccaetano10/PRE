@@ -5,6 +5,21 @@
     /* Pensar em uma fonte para colocar */
 }
 
+html{
+    height: 500vh;
+}
+
+.main{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header{
     display: inline;
 }
