@@ -6,11 +6,10 @@
 }
 
 html{
-    height: 500vh;
+    text-decoration: none;
 }
 
 .main{
-    max-width: 1280px;
     margin: auto;
 }
 
@@ -18,16 +17,38 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left:100px;  
+    margin-right: auto;
+}
+img{
+    float: left;
 }
 
-header{
-    display: inline;
-}
-ul{
+.nav-b {
+    display: flex;
+    background-color: #ffde59;
     list-style-type: none;
+    padding: 0px 0px 0px;
+    overflow: hidden;
+    height: 80px;
+
 }
-
-header ul li{
-    display: inline-block;
-
+.nav-b li{
+    color: #597AFF;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+.nav-b a {
+    display: block;
+    padding: 25px 70px;
+    border: black;
+    float: left
+}
+.nav-b a:hover{
+    background-color: lightseagreen;
+}
+.icon{
+    float: right;
 }
