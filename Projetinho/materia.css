@@ -38,23 +38,56 @@ html{
 }
 
 section {
-    padding: 300px 20px 100px 20px; /* top, right, bottom, left */
+    padding: 100px 20px 100px 20px; /* top, right, bottom, left */
 }
 
 #admin{
     background-color: #4cd137;
+    opacity: 0.8;
     scroll-margin-top: 50px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
     width: 90%;
-    padding: 20px 10px 100px 50px;
+    padding: 20px 10px 100px 40px;
     border-radius: 10px;
 }
 
 #mat{
     background-color: #e84118;
+    opacity: 0.8;
     scroll-margin-top: 50px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
     width: 90%;
-    padding: 20px 10px 100px 50px;
+    padding: 20px 10px 100px 40px;
+    border-radius: 10px; 
+}
+
+#ing{
+    background-color: #feca57;
+    opacity: 0.8;
+    scroll-margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 90%;
+    padding: 20px 10px 100px 40px;
+    border-radius: 10px; 
+}
+
+#mate{
+    background-color: #6c5ce7;
+    opacity: 0.8;
+    scroll-margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 90%;
+    padding: 20px 10px 100px 40px;
     border-radius: 10px; 
 }
