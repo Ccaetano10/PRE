@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .grade-materias {
     display: flex;
     flex-wrap: wrap;
@@ -31,4 +35,26 @@
 .botao-materia:hover {
     transform: scale(1.05);
     opacity: 0.9;
+}
+
+section {
+    padding: 300px 20px 100px 20px; /* top, right, bottom, left */
+}
+
+#admin{
+    background-color: #4cd137;
+    scroll-margin-top: 50px;
+    margin: auto;
+    width: 90%;
+    padding: 20px 10px 100px 50px;
+    border-radius: 10px;
+}
+
+#mat{
+    background-color: #e84118;
+    scroll-margin-top: 50px;
+    margin: auto;
+    width: 90%;
+    padding: 20px 10px 100px 50px;
+    border-radius: 10px; 
 }
