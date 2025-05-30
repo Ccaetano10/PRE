@@ -21,13 +21,6 @@ html{
 }
 
 header{
-    display: inline;
-}
-ul{
-    list-style-type: none;
-}
-
-header ul li{
-    display: inline-block;
-
+    width: 100%;
+    padding: 60px 4%;
 }
