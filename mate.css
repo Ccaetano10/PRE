@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     /* Pensar em uma fonte para colocar */
 }
 
@@ -20,18 +21,23 @@ html{
     padding-left:100px;  
     margin-right: auto;
 }
+.options li a{
+    padding: 10px 2vw;
+}
 img{
-    float: left;
+    margin-right: -100px;
+    width: 80px;
 }
 
 .nav-b {
     display: flex;
     background-color: #ffde59;
     list-style-type: none;
-    padding: 0px 0px 0px;
     overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
-
+    padding: 0px 20px
 }
 .nav-b li{
     color: #597AFF;
@@ -42,13 +48,17 @@ img{
 }
 .nav-b a {
     display: block;
-    padding: 25px 70px;
+    padding: 10px 10px;
     border: black;
-    float: left
 }
 .nav-b a:hover{
     background-color: lightseagreen;
 }
 .icon{
+    display: flex;
     float: right;
+}
+
+.icon a i{
+    font-size: 30px;
 }
