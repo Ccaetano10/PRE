@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
+    height: 400vh;
 }
 
 .nav-b {
@@ -57,4 +58,5 @@ body {
 
 .icon a:hover i {
     color: lightseagreen;
+    border-radius: 5px;
 }

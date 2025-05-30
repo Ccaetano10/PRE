@@ -1,0 +1,34 @@
+.grade-materias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;   /* Limita pra 2 por linha */
+    margin: 80px auto;  /* Centraliza na tela */
+    gap: 60px; /* Espaço entre os botões */
+}
+
+.botao-materia {
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Cores personalizadas */
+.verde { background-color: #4cd137; }
+.vermelho { background-color: #e84118; }
+.amarelo { background-color: #feca57; }
+.roxo { background-color: #6c5ce7; }
+
+.botao-materia:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
