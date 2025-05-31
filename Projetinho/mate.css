@@ -8,6 +8,10 @@
 body {
     background-color: #ffffff;
     height: 400vh;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(); /* Caminho da imagem */
+    /*background-size: cover;*/                     /* Cobre toda a tela */
+    /*background-position: center;*/                /* Centraliza a imagem */
+    /*background-repeat: no-repeat;*/               /* Não repete */
 }
 
 .nav-b {

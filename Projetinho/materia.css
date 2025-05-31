@@ -51,7 +51,18 @@ section {
     width: 90%;
     padding: 20px 10px 100px 40px;
     border-radius: 10px;
+    color:black;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: #000; /* Cor da fonte */
+    line-height: 2.2; /* Espaçamento entre linhas */
 }
+
+#admin a {
+  color: blue; /* Altere para a cor desejada */
+  font-weight: bold; /* Opcional: deixa em negrito */
+}
+
 
 #mat{
     background-color: #e84118;
