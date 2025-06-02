@@ -1,0 +1,11 @@
+.resumo{
+    display: inline-flex;
+    padding-left: 150px ;
+    padding-top: 75px ;
+    gap: 30px;
+}
+
+.textos{
+    text-align: center;
+    margin-top: 50px;
+}
