@@ -138,7 +138,7 @@ section {
     background-color: #ffde59;  /* Cor de fundo */
     color: black;            /* Cor do texto */
     text-align: center;      /* Centraliza o texto */
-    padding: 20px 0;         /* Espaço interno */
+    padding: 30px 0;         /* Espaço interno */
     position: relative;      /* ou 'fixed' se quiser fixo na tela */
     bottom: 0;
     width: 100%;
