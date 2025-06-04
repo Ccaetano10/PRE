@@ -3,7 +3,8 @@ html{
 }
 
 body{
-    height: 450vh;
+    height: 460vh;
+    background-color:#dee1e4;
 }
 
 .grade-materias {
@@ -133,6 +134,22 @@ section {
   color: blue; /* Altere para a cor desejada */
   font-weight: bold; /* Opcional: deixa em negrito */
 }
+
+.voltar a {
+    text-decoration: none;
+    color: white;
+    background-color: #002366; /* azul escuro, pode mudar */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.voltar a:hover {
+    background-color: #0047ab; /* tom mais claro ao passar o mouse */
+}
+
 
 .rodape {
     background-color: #ffde59;  /* Cor de fundo */
