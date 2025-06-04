@@ -55,43 +55,66 @@ body{
 }
 
 .info {
-    background-color: #eef2f5;
-    padding: 60px 20px;
+    padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
-.info-container {
-    max-width: 1000px;
-    margin: auto;
+.info-bloco {
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
 }
 
-.info h3 {
-    font-size: 26px;
-    color: #002366;
-    margin: 30px 0 15px;
-    border-left: 4px solid #002366;
-    padding-left: 10px;
+.info-historia {
+    background: linear-gradient(135deg, #002366, #004aad);
 }
 
-.info p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
+.info-missao {
+    background: linear-gradient(135deg, #006666, #00b3b3);
+}
+
+.info-projetos {
+    background: linear-gradient(135deg, #333333, #666666);
+}
+
+.info-bloco h3 {
+    font-size: 32px;
     margin-bottom: 20px;
-    text-align: justify;
+    position: relative;
 }
 
-.info ul {
-    padding-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+.info-bloco h3::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    display: block;
+    margin: 10px auto 0;
 }
 
-.info ul li {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 10px;
-    line-height: 1.5;
-    list-style-type: disc;
+.info-bloco i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffffcc;
 }
+
+.info-bloco p, .info-bloco li {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+    color: #f0f0f0;
+}
+
+.info-bloco ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-bloco li::before {
+    content: "★ ";
+    color: #ffdd57;
+}
+
+
 
