@@ -67,11 +67,10 @@ section {
   font-weight: bold; /* Opcional: deixa em negrito */
 }
 
-
 #mat{
     background-color: #e84218;
     opacity: 0.8;
-    scroll-margin-top: 20px;
+    scroll-margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -92,6 +91,7 @@ section {
 }
 
 #ing{
+    text-decoration: none;
     background-color: #feca57;
     opacity: 0.8;
     scroll-margin-top: 50px;
@@ -133,6 +133,16 @@ section {
 #cient a {
   color: blue; /* Altere para a cor desejada */
   font-weight: bold; /* Opcional: deixa em negrito */
+}
+
+h2 a {
+  color: black !important;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: #fffbfb !important; 
+  text-decoration: none; 
 }
 
 .voltar a {
