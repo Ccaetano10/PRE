@@ -9,3 +9,42 @@
     text-align: center;
     margin-top: 50px;
 }
+.subtitle{
+    text-align: center;
+    margin-top: 50px;
+}
+.motivos-title{
+    text-align: center;
+    margin-top: 200px;
+}
+.motivos-caixa {
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+
+}
+
+.motivo {
+    text-align: center;
+    max-width: 400px;        
+    min-height: 250px;       
+    background-color: #ffde59;
+    padding: 30px 100px;           
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.rodape {
+    background-color: #ffde59;  /* Cor de fundo */
+    color: black;            /* Cor do texto */
+    text-align: center;      /* Centraliza o texto */
+    padding: 30px 0;         /* Espaço interno */
+    position: relative;      /* ou 'fixed' se quiser fixo na tela */
+    bottom: 0;
+    width: 100%;
+}
